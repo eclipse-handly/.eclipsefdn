@@ -2,9 +2,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('eclipse-handly') {
   settings+: {
-    members_can_change_project_visibility: false,
-    packages_containers_internal: false,
-    packages_containers_public: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
