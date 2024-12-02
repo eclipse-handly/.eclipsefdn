@@ -23,6 +23,7 @@ orgs.newOrg('eclipse-handly') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "Eclipse Handly™ provides basic building blocks for handle-based models",
+      has_discussions: true,
       homepage: "https://eclipse.org/handly",
       web_commit_signoff_required: false,
     },
