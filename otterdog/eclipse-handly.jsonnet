@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-handly') {
+orgs.newOrg('technology.handly', 'eclipse-handly') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
